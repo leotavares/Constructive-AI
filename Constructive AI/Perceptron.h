@@ -16,7 +16,7 @@ using namespace std;
 template <class E>
 
 class Perceptron {
-private:
+protected:
 	vector<E> EVector;	//evaluation vector
 	int numberOfValues;	//number of values(incl. bias & excl. class) in the DataValues
 	//TODO: CHANGE THE WAY THIS WORKS, TO MAKE IT POSSIBLE TO GET VALUE TYPE FROM E

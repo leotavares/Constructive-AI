@@ -1,5 +1,6 @@
 #include "Perceptron.h"
 #include "DataValues.h"
+#include "Pocket.h"
 
 int main() {
 	vector<DataValues<float>> trainingSet;
@@ -59,7 +60,7 @@ int main() {
 	dv3.setValues(v);
 	trainingSet.push_back(dv3);
 
-	Perceptron<DataValues<float>> *firstP = new Perceptron<DataValues<float>>(trainingSet);
+	Pocket<DataValues<float>> *firstP = new Pocket<DataValues<float>>(trainingSet);
 	
 	firstP->generateW();
 

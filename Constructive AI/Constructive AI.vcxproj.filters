@@ -21,6 +21,9 @@
     <ClInclude Include="DataValues.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Pocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Perceptron.cpp">

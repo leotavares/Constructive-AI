@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="Perceptron.h" />
     <ClInclude Include="DataValues.h" />
+    <ClInclude Include="Pocket.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
